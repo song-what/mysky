@@ -1,0 +1,204 @@
+body {
+  padding-top: 50px;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif; }
+
+.solgan {
+  text-align: center; }
+  .solgan a {
+    display: inline-block;
+    color: #fff;
+    margin-top: 50px; }
+
+h1 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #fff;
+  font-size: 70px;
+  font-family: 'Permanent Marker', cursive; }
+  @media (min-width: 992px) {
+    h1 {
+      float: left;
+      width: 100%; } }
+
+.index_bg {
+  margin-top: 30px;
+  width: 100%; }
+
+.vr_screenshot {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .vr_screenshot {
+      float: left;
+      width: 33.3333333333%; } }
+  .vr_screenshot img {
+    width: 100%; }
+  .vr_screenshot span, .vr_screenshot p {
+    color: #fff; }
+  .vr_screenshot span {
+    margin: 5px 0;
+    font-style: italic;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: underline; }
+
+.streaming_bg {
+  width: 100%;
+  position: absolute;
+  top: -50px;
+  z-index: -100; }
+
+.streaming_content {
+  z-index: 100; }
+  .streaming_content.content_1 {
+    width: 270px;
+    height: 70px;
+    position: absolute;
+    top: 350px;
+    left: 540px; }
+    .streaming_content.content_1 .button_1 {
+      position: absolute;
+      top: 10px;
+      left: 240px;
+      display: block; }
+      .streaming_content.content_1 .button_1 img {
+        width: 20px; }
+    .streaming_content.content_1 .list_1 {
+      display: none;
+      background: rgba(255, 255, 255, 0.9); }
+    .streaming_content.content_1:hover .list_1 {
+      display: block;
+      position: absolute;
+      left: 0;
+      width: 250px;
+      top: 30px;
+      list-style-type: none; }
+  .streaming_content .plus_button {
+    width: 20px; }
+
+.title h1 {
+  margin-bottom: 35px; }
+
+.vr_show {
+  width: 1140px;
+  height: 641px; }
+
+.myskylist {
+  list-style-type: none;
+  padding-left: 0; }
+
+.row-left {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .row-left {
+      float: left;
+      width: 58.3333333333%; } }
+
+.row-right {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  position: absolute;
+  top: 50px;
+  right: 0; }
+  @media (min-width: 992px) {
+    .row-right {
+      float: left;
+      width: 16.6666666667%; } }
+  .row-right h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 5px; }
+
+.my_catalog {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 200px; }
+  @media (min-width: 992px) {
+    .my_catalog {
+      float: left;
+      width: 50%; } }
+  .my_catalog p {
+    color: #fff;
+    font-size: 18px; }
+  .my_catalog .my_catalog_logo {
+    display: block;
+    float: left; }
+  .my_catalog ul {
+    display: block;
+    float: left;
+    list-style-type: none;
+    padding: 0 0 0 20px; }
+    .my_catalog ul li {
+      color: #fff; }
+      .my_catalog ul li img {
+        width: 20px; }
+
+.my_catalog_logo {
+  width: 100px; }
+
+.chat_item {
+  display: block;
+  border-bottom: 1px solid #757674;
+  margin: 10px 0 0;
+  min-height: 90px; }
+  .chat_item .image_cropper {
+    display: block;
+    float: left;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%; }
+    .chat_item .image_cropper.trans img {
+      opacity: 0.8; }
+    .chat_item .image_cropper img {
+      display: inline;
+      margin: 0 auto;
+      height: 100%;
+      width: auto; }
+  .chat_item p {
+    color: #fff; }
+  .chat_item .chat_content {
+    display: block;
+    float: left;
+    padding: 10px 15px; }
+    .chat_item .chat_content a {
+      display: block; }
+
+.navbar-brand {
+  padding: 10px; }
+
+.site_logo {
+  width: 50px; }
+
+.content {
+  top: -50px; }
+
+body {
+  background: transparent url("/assets/header-bg-30daf47aede20636ec171318d941636d.jpg") left top no-repeat; }
+
+.homepage, .vr, .streaming {
+  padding-top: 100px;
+  height: 1000px; }
+
+#sky_tv {
+  width: 1680px;
+  height: 200vh;
+  margin: -50px 0 0 0;
+  border: 0; }

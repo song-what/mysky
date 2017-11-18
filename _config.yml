@@ -1,0 +1,17 @@
+# Site settings
+title: Sky, no limit.
+baseurl: ""
+markdown: kramdown
+destination: _tmp
+
+# Plugins
+gems: [jekyll-assets]
+
+# Assets
+assets:
+  cachebust: hard
+  cache: true
+  gzip: false
+  debug: true
+  # js_compressor: uglifier
+  # css_compressor: sass
