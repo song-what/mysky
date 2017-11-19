@@ -7,6 +7,13 @@ body {
 .solgan {
   text-align: center;
 
+  img {
+    display: block;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+  }
+
   a {
     display: inline-block;
     color: #fff;
@@ -129,9 +136,13 @@ h1 {
   @include make-md-column(7);
 }
 
+.row-left-2 {
+  @include make-md-column(10);
+}
+
 .row-right {
   @include make-md-column(2);
-  height: 100vh;
+  height: 200vh;
   background: rgba(#fff, 0.1);
   padding: 15px;
   position: absolute;
@@ -159,8 +170,8 @@ h3 {
 
 .my_catalog {
   @include make-md-column(6);
-  height: 200px;
-  margin-bottom: 50px;
+  height: 250px;
+  margin-bottom: 70px;
 
   &.add_new {
     img {
@@ -177,12 +188,10 @@ h3 {
 
   .my_catalog_logo {
     display: block;
-    float: left;
+    width: 80%;
   }
 
   ul {
-    display: block;
-    float: left;
     list-style-type: none;
     padding: 10px 0 0 0;
 
@@ -248,5 +257,36 @@ h3 {
     a {
       display: block;
     }
+  }
+}
+
+.reco {
+  border-top: 1px solid #757674;
+}
+
+.reco_item {
+  @include make-md-column(3);
+  margin: 10px auto;
+
+  img {
+    width: 100%;
+  }
+}
+
+h2.watched {
+  display: block;
+  margin-top: 30px;
+}
+
+.watched_item {
+  text-align: center;
+  margin: 20px;
+
+  img {
+    margin: 0 auto;
+  }
+
+  p {
+    color: #fff;
   }
 }
